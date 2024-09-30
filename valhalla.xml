@@ -93,7 +93,7 @@
 
   <!-- Gulag -->
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="valhalla3" />
-  <project path="vendor/google/partner_gms" name="vendor_google_gms" remote="valhalla2" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="valhalla2" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="styx" />
