@@ -85,6 +85,8 @@
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="valhalla" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="valhalla" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="valhalla" />
+
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="bootable_recovery" remote="styx" />
