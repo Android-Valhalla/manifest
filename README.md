@@ -14,7 +14,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 **Initializing the manifest.**
 
 ```
-repo init -u https://github.com/AndroidValhalla/manifest -b vic
+repo init -u https://github.com/Android-Valhalla/manifest -b vic
 ```
 
 **Syncing the source.**
