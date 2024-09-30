@@ -5,7 +5,9 @@
  (Styx) -->
   <remote  name="styx" revision="vic" fetch="https://github.com/StyxProject/" />
   
-  <remote  name="valhalla" fetch="https://github.com/Android-Valhalla" />
+  <remote  name="valhalla1" revision="vic" fetch="https://github.com/Android-Valhalla" />
+  <remote  name="valhalla2" revision="fifteen" fetch="https://github.com/Android-Valhalla" />
+  <remote  name="valhalla3" revision="fourteen" fetch="https://github.com/Android-Valhalla" />
 
   <project path="bionic" name="bionic" remote="styx" />
 
@@ -80,9 +82,9 @@
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="styx" />
 
   <!-- Packages -->
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="valhalla" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="valhalla" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="valhalla" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="valhalla2" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="valhalla1" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="valhalla2" />
 
 
   <!-- Recovery -->
@@ -90,8 +92,8 @@
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="styx" />
 
   <!-- Gulag -->
-  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="valhalla" />
-  <project path="vendor/google/partner_gms" name="vendor_google_gms" remote="valhalla" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="valhalla3" />
+  <project path="vendor/google/partner_gms" name="vendor_google_gms" remote="valhalla2" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="styx" />
@@ -101,7 +103,7 @@
   <project path="system/vold" name="system_vold" remote="styx" />
 
   <!-- Vendor -->
-  <project path="vendor/styx" name="vendor_styx" remote="valhalla" />
+  <project path="vendor/styx" name="vendor_styx" remote="valhalla1" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="vendor_qcom-opensource_data-ipa-cfg-mgr-legacy-um" remote="styx" />
 
 </manifest>
