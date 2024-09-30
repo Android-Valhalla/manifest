@@ -1472,6 +1472,6 @@
 
   <include name="lineage.xml" />
   <include name="remove.xml" />
-  <include name="styx.xml" />
+  <include name="valhalla.xml" />
 
 </manifest>
