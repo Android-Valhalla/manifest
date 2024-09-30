@@ -3,12 +3,9 @@
 
   <!-- GitHub
  (Styx) -->
-  <remote  name="styx"
-           revision="vic"
-           fetch="https://github.com/StyxProject/" />
+  <remote  name="styx" revision="vic" fetch="https://github.com/StyxProject/" />
   
-  <remote  name="valhalla"
-           fetch="https://github.com/Android-Valhalla">
+  <remote  name="valhalla" fetch="https://github.com/Android-Valhalla" />
 
   <project path="bionic" name="bionic" remote="styx" />
 
