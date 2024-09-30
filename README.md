@@ -1,4 +1,7 @@
-![Victoria](assets/StyxBanner.png)
+![V](assets/valhalla.png)
+
+# You think we're gonna like it
+
 The Styx Project is a simple, clean, beautiful Android based custom ROM that strives to provide a stable and fluid experience, with minimal enhancements and features to bring out the most out of your Android device.
 
 To get started with Styx, you'll need to get
